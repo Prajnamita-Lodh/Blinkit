@@ -63,3 +63,32 @@ Please see the snippet of the gauge meter.
 - Step 13 : A pie chart was also added to the report design area representing the fat content of the items. While creating this visual, field named "Item fat Content" was also added to the Legends bucket. In time of formating the visual, yellow colour (#F9E061) is selected to refer "Regular" and green color (#008000) is chose for "Low Fat". Additional image is added to enhance the report view.
 
 ![Image](https://github.com/user-attachments/assets/f451b1e0-0e81-48e9-b708-ac94d4ac3ab9)
+
+
+
+ - Step 18 : The report was then published to Power BI Service.
+ 
+![Image](https://github.com/user-attachments/assets/35503332-354c-4062-81ce-f03197ad3c9c)
+
+# Snapshot of Dashboard (Power BI Service)
+
+## Overview
+![Image](https://github.com/user-attachments/assets/28494b99-ea03-4992-b7ee-764cdbd62cf4)
+## Outlet
+![Image](https://github.com/user-attachments/assets/f9206eb6-9e63-4cef-828e-04980e6d012d)
+## Sales
+![Image](https://github.com/user-attachments/assets/f38c197e-f792-48f2-b8f6-8a72f6be9b9b)
+## Visibility
+![Image](https://github.com/user-attachments/assets/38576639-7ca2-4aa3-bfc8-fd8a5b03269a)
+
+ 
+ # Report Snapshot (Power BI DESKTOP)
+
+ ## Overview
+![Image](https://github.com/user-attachments/assets/6ef39721-2947-416a-9857-06b0636e05d5)
+## Outlet
+![Image](https://github.com/user-attachments/assets/93e3382c-002e-4dc3-980d-b475a510ccfa)
+## Sales
+![Image](https://github.com/user-attachments/assets/458e1587-bdf1-47e3-a26f-4d6c43e75076)
+## Visibility
+![Image](https://github.com/user-attachments/assets/88ad06cd-0eae-4c01-a544-8b3f9fe339e0)
