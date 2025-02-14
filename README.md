@@ -1,6 +1,6 @@
 # Blinkit Grocery
 
-### Dashboard Link : https://app.powerbi.com/groups/me/reports/a8a9a3b5-c03b-474b-a542-b198932c7322/fc404cc718a7d7b3aa9f?experience=power-bi
+### Dashboard Link : https://app.powerbi.com/groups/me/reports/a8a9a3b5-c03b-474b-a542-b198932c7322/fc404cc718a7d7b3aa9f/
 
 ## Problem Statement
 
