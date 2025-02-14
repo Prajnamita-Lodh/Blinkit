@@ -2,6 +2,8 @@
 
 ### Dashboard Link : https://app.powerbi.com/groups/me/reports/a8a9a3b5-c03b-474b-a542-b198932c7322/fc404cc718a7d7b3aa9f/
 
+![Image](https://github.com/user-attachments/assets/6b735b13-1fa7-4642-91bc-9772dcbc88de)
+
 ## Problem Statement
 
 This project focuses on analyzing fictional data from Blinkit, an online grocery delivery service, to extract valuable insights using Power BI. The dataset provides information on various parameters such as product demand, delivery trends, customer behavior, and operational efficiency. The goal is to transform raw data into meaningful visualizations that aid decision-making.
