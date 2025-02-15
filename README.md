@@ -35,7 +35,7 @@ Power BI report file with interactive dashboards and visualizations on overview,
 - Sales: Sales of the item in the given time period.
 - Rating: Customer rating or feedback score for the item or the outlet.
 
-### Steps followed 
+## Steps followed 
 
 - Step 1 : Load data into Power BI Desktop, dataset is a csv file.
 - Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
@@ -45,7 +45,15 @@ Power BI report file with interactive dashboards and visualizations on overview,
 - Step 6 :To redirect to the Power BI Desktop, click on "Close & Apply" from the File menu of the Power query 
 - Step 7 : In the report view, under the Format pane, select the Yellow colour (#F9E061) for _Canvas Background_.
 - Step 8 : Visual filters (Slicers) were added for one field named "Outlet Establishment Year".
+
+  
 ![Image](https://github.com/user-attachments/assets/23fdb3ed-1e49-43f8-a8cf-a6db265cd986)
+- Step 9 : In the report view, under the insert tab, using image option company's logo was added to the report design area at the left corner.
+Here is the Logo:
+
+![Image](https://github.com/user-attachments/assets/797d55de-4d4f-467c-abd2-018aa95e163e)
+- Step 10 : Text box is inseted in the report to write the **TITLE** of the page. Make the duplicate of the page for four times and named thise as "Overview", "Outlet", "Sales" and "Visibility" consecutatively.
+### Overview Page:
 - Step 9 : Two card visuals were added to the canvas, one representing total sale and sales to visibility ratio in "Overview" page.
 ![Image](https://github.com/user-attachments/assets/8cb275e2-0fcf-4161-903c-cedf95389371)
 - Step 10 : New measure is crated for **"Total Sale"**. DAX expression for "Sales" is mentioned here:
@@ -58,19 +66,51 @@ Power BI report file with interactive dashboards and visualizations on overview,
 ![Image](https://github.com/user-attachments/assets/9ee4d58d-bc21-44a1-9200-675409c0fa5f)
 - Step 12 : Added Gauge visual to represent **Customer Satisfection.** To format the visual, set the gauge minimun axis as "1" and maximum axis as "5" as "4" was target value. 
 Please see the snippet of the gauge meter.
-
 ![Image](https://github.com/user-attachments/assets/f4e84f4c-9814-4bca-a33c-cd3cc8fbdb87) 
 - Step 13 : A pie chart was also added to the report design area representing the fat content of the items. While creating this visual, field named "Item fat Content" was also added to the Legends bucket. In time of formating the visual, yellow colour (#F9E061) is selected to refer "Regular" and green color (#008000) is chose for "Low Fat". Additional image is added to enhance the report view.
 
 ![Image](https://github.com/user-attachments/assets/f451b1e0-0e81-48e9-b708-ac94d4ac3ab9)
+- Step 14 : The scattered chart is inserted to represent item visibility by sales. Sum of Item Visibility is plotted in X-axis and Sum of Sales is plotted in Y-Axis where the "Sales" is added in value field.
 
+![Image](https://github.com/user-attachments/assets/bf55f69f-79f4-48dd-b5fc-446b86616bee)
 
+### Outlet Page:
+- Step 15 : A stacked column chart is used to represent the count of outlet identifiers by item type. The X-axis displays the item types, while the Y-axis represents the count of outlet identifiers. Conditional formatting is applied in the "Column" section for the fill color, where yellow indicates the minimum value and green represents the maximum value.
 
- - Step 18 : The report was then published to Power BI Service.
- 
+![Image](https://github.com/user-attachments/assets/94a4e474-4ef6-4b4c-95d7-ed4be948a6d0)
+- Step 16 : A donut chart is inserted to display the outlet sizes. In this chart, green represents _small outlets_, yellow represents _high outlets_, and yellow-green represents _medium outlets_.
+
+![Image](https://github.com/user-attachments/assets/8c579c3f-649b-4fdc-879e-4d2aa766caef)
+- Step 17 : A stacked bar chart is used to represent the total sales based on outlet size. In this chart, green represents _small outlets_, yellow represents _high outlets_, and yellow-green represents _medium outlets_.
+
+![Image](https://github.com/user-attachments/assets/5c892dc7-9ec7-4300-aa45-8fc0c6ab9f36) 
+for creating new column following DAX expression was written;
+
+ ### Sales Page:
+- Step 18 : 
+
+![Image](https://github.com/user-attachments/assets/c7cf175d-c5c9-4c0e-910e-5dde4b4c3b5e)
+- Step 19 : 
+
+![Image](https://github.com/user-attachments/assets/4b041db1-785a-4073-b8ac-7fbe8955df70)
+- Step 20 : 
+
+![Image](https://github.com/user-attachments/assets/128723d0-7af5-4977-b295-317852e2eb1f)
+
+- Step 21 : 
+
+![Image](https://github.com/user-attachments/assets/000fbba8-9b4f-48e8-a9b0-4ea305c86308)
+
+ ### Visibility Page:
+- Step 22 : 
+
+![Image](https://github.com/user-attachments/assets/cc9c8203-048c-4c65-84f2-eb3d1a1dca96)
+
+ - Step 23 : The report was then published to Power BI Service.
+   
 ![Image](https://github.com/user-attachments/assets/35503332-354c-4062-81ce-f03197ad3c9c)
 
-# Snapshot of Dashboard (Power BI Service)
+ # Snapshot of Dashboard (Power BI Service)
 
 ## Overview
 ![Image](https://github.com/user-attachments/assets/28494b99-ea03-4992-b7ee-764cdbd62cf4)
