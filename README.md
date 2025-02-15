@@ -148,9 +148,9 @@ Please see the snippet of the gauge meter.
 ## Visibility
 ![Image](https://github.com/user-attachments/assets/88ad06cd-0eae-4c01-a544-8b3f9fe339e0)
 
-## Insights and Conclusion:
+# Insights and Conclusion:
 The analysis of Blinkit's fictional grocery data reveals key trends in customer satisfaction, product composition, outlet distribution, and sales performance. The average customer satisfaction stands at 3.92, slightly below the target of 4.0, indicating a need for improvements in service or product offerings. Low-fat items dominate the grocery segment, accounting for approximately 64% of total products. Additionally, medium-sized outlets are the most common and have contributed the most to total sales, likely due to their balanced capacity and accessibility. A significant concentration of grocery outlets is observed in Tier-3 cities, suggesting a focus on expanding market reach in smaller urban areas. The highest total sales were recorded in 2018, marking a peak performance year. Among product categories, fruits and vegetables are the best-selling items, while seafood ranks the lowest in sales. These insights provide a strategic foundation for optimizing product offerings, improving customer satisfaction, and enhancing sales performance in targeted regions.
-## Improvement Areas:
+# Improvement Areas:
 - **Enhancing Customer Satisfaction** – With the rating of 3.92 against the target of 4.0, there is room for improvement in service quality, product availability, and customer engagement. Collecting feedback and implementing loyalty programs or personalized promotions can help bridge this gap.
 
 - **Optimizing Outlet Size and Distribution** – While medium-sized outlets contribute the most to sales, assessing the potential of small and large-sized stores in different regions may help improve overall performance. Additionally, expanding into Tier-1 and Tier-2 cities can create new revenue streams.
