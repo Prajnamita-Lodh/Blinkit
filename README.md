@@ -55,6 +55,7 @@ Here is the Logo:
 - Step 10 : Text box is inseted in the report to write the **TITLE** of the page. Make the duplicate of the page for four times and named thise as "Overview", "Outlet", "Sales" and "Visibility" consecutatively.
 ### Overview Page:
 - Step 9 : Two card visuals were added to the canvas, one representing total sale and sales to visibility ratio in "Overview" page.
+  
 ![Image](https://github.com/user-attachments/assets/8cb275e2-0fcf-4161-903c-cedf95389371)
 - Step 10 : New measure is crated for **"Total Sale"**. DAX expression for "Sales" is mentioned here:
        
