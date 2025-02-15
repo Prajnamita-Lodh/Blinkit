@@ -84,31 +84,45 @@ Please see the snippet of the gauge meter.
 - Step 17 : A stacked bar chart is used to represent the total sales based on outlet size. In this chart, green represents _small outlets_, yellow represents _high outlets_, and yellow-green represents _medium outlets_.
 
 ![Image](https://github.com/user-attachments/assets/5c892dc7-9ec7-4300-aa45-8fc0c6ab9f36) 
-for creating new column following DAX expression was written;
+
 
  ### Sales Page:
-- Step 18 : 
+- Step 18 : A line chart has been implemented to represent sales based on the establishment year of the outlet. According to the analysis, total sales peaked in 2018.
 
 ![Image](https://github.com/user-attachments/assets/c7cf175d-c5c9-4c0e-910e-5dde4b4c3b5e)
-- Step 19 : 
+- Step 19 : A donut chart is used to represent the total sales by outlet location. In this chart, green represents _Tire 3_, yellow represents _Tire 1_, and yellow-green represents _Tire 2_.
 
 ![Image](https://github.com/user-attachments/assets/4b041db1-785a-4073-b8ac-7fbe8955df70)
-- Step 20 : 
+- Step 20 : Stacked bar chart is used to display the top 10 items by sales where sum of sales is plotted in the X-axis and item type is plotted in the Y-axis. To filter the top 10 item, click on "TOP N" for **"Filter Type"**. Now select "Top" to **"Show items"**.
 
 ![Image](https://github.com/user-attachments/assets/128723d0-7af5-4977-b295-317852e2eb1f)
 
-- Step 21 : 
+- Step 21 : Stacked bar chart is used to display the bottom 10 items by sales where sum of sales is plotted in the X-axis and item type is plotted in the Y-axis. To filter the bottom 10 item, click on "BOTTOM N" for **"Filter Type"**. Now select "Bottom" to **"Show items"**. 
 
 ![Image](https://github.com/user-attachments/assets/000fbba8-9b4f-48e8-a9b0-4ea305c86308)
 
  ### Visibility Page:
-- Step 22 : 
+- Step 22 : The Power BI Q&A feature is used to create a matrix table that displays the visibility of item identifiers based on the outlet. The Item Identifier is placed in the Rows field, the Outlet Identifier is placed in the Columns field, and the Sum of Item Visibility is assigned to the Values field.
 
 ![Image](https://github.com/user-attachments/assets/cc9c8203-048c-4c65-84f2-eb3d1a1dca96)
 
  - Step 23 : The report was then published to Power BI Service.
    
 ![Image](https://github.com/user-attachments/assets/35503332-354c-4062-81ce-f03197ad3c9c)
+
+# Used DAX expression in Blinkit Report:
+- Average Sales per Item:
+
+        Average Sales per Item = SUM(Blinkit[Sales])/COUNT(Blinkit[Item Identifier])
+- Sales Contribution Percentage by Outlet = 
+
+        Sales Contribution Percentage by Outlet = SUM(Blinkit[Sales])/CALCULATE(SUM(Blinkit[Sales]), ALL(Blinkit[Outlet Identifier]))*100
+- Sales-to-Visibility Ratio 
+
+        Sales-to-Visibility Ratio = SUM(Blinkit[Sales]) / SUM(Blinkit[Item Visibility])
+- Total Sale 
+
+      Total Sale   = SUM(Blinkit[Sales])
 
  # Snapshot of Dashboard (Power BI Service)
 
@@ -132,3 +146,14 @@ for creating new column following DAX expression was written;
 ![Image](https://github.com/user-attachments/assets/458e1587-bdf1-47e3-a26f-4d6c43e75076)
 ## Visibility
 ![Image](https://github.com/user-attachments/assets/88ad06cd-0eae-4c01-a544-8b3f9fe339e0)
+
+## Insights and Conclusion:
+The analysis of Blinkit's fictional grocery data reveals key trends in customer satisfaction, product composition, outlet distribution, and sales performance. The average customer satisfaction stands at 3.92, slightly below the target of 4.0, indicating a need for improvements in service or product offerings. Low-fat items dominate the grocery segment, accounting for approximately 64% of total products. Additionally, medium-sized outlets are the most common and have contributed the most to total sales, likely due to their balanced capacity and accessibility. A significant concentration of grocery outlets is observed in Tier-3 cities, suggesting a focus on expanding market reach in smaller urban areas. The highest total sales were recorded in 2018, marking a peak performance year. Among product categories, fruits and vegetables are the best-selling items, while seafood ranks the lowest in sales. These insights provide a strategic foundation for optimizing product offerings, improving customer satisfaction, and enhancing sales performance in targeted regions.
+## Improvement Areas:
+- **Enhancing Customer Satisfaction** – With the rating of 3.92 against the target of 4.0, there is room for improvement in service quality, product availability, and customer engagement. Collecting feedback and implementing loyalty programs or personalized promotions can help bridge this gap.
+
+- **Optimizing Outlet Size and Distribution** – While medium-sized outlets contribute the most to sales, assessing the potential of small and large-sized stores in different regions may help improve overall performance. Additionally, expanding into Tier-1 and Tier-2 cities can create new revenue streams.
+
+- **Boosting Sales in Underperforming Categories** – Seafood ranks lowest in sales, suggesting the need for better marketing, improved supply chain management, and promotional offers to increase demand.
+
+- **Sustaining Sales Growth Beyond 2018** – Since 2018 was the peak year for total sales, analyzing the factors behind its success (such as pricing strategies, promotions, or seasonal demand) can help replicate this growth in the future.
